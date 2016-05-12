@@ -27,12 +27,6 @@ react 这玩意儿，写的些复杂，现在放上来，也算是一个体会�
   //数组
   var arr=[];
   /**
-   * @description 自适应布局
-   */
-   // <div className='l'></div>
-    // <div className='r'></div>
-    // <div className='c'></div>
-  /**
    * @description main主输出标签
    */
   var Trees = React.createClass({displayName: "Trees",
@@ -54,8 +48,9 @@ react 这玩意儿，写的些复杂，现在放上来，也算是一个体会�
      */
     ReactDOM.render(React.createElement(Trees, {data: arr}),id_webpage);  
 </pre>
-
+<p>
 jsx本地构建成静态代码
+</p>
 NPM
 -----------------------------------------------------
 <pre>
